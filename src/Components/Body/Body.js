@@ -80,12 +80,17 @@ function Body() {
 
           {/* Buttons */}
           <div className="flex space-x-4">
+            <a href="/about">
             <button className="bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">
               Explore
             </button>
+            </a>
+            <a href="/contact">
             <button className="bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">
               Get in touch
             </button>
+            </a>
+          
           </div>
         </div>
       </div>
